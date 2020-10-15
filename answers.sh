@@ -11,7 +11,7 @@ select Name from students where Gender= 'female' and Age= '30'
 select Points srom students where Name='Alex'
 
 // 5. Add yourself as a new student (your name, your age...)
-insert into students (name, age) where Name='nour' and age= '21'
+insert into students (Name, Age) where Name='nour' and age= '21'
 
 // 6. Increase the points of Basma because she solved a new exercise 
 update students set Points=Points+5 where Name='Basma'
